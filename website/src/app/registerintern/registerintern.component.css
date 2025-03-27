@@ -1,3 +1,12 @@
 input{
     border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+input:hover{
+    border-color: black;
+    background-color:violet;
+}
+#form{
+    background-color: aquamarine;
 }
