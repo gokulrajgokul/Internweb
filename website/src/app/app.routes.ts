@@ -8,6 +8,4 @@ export const routes: Routes = [
     {path:'registerintern',component:RegisterinternComponent},
     {path:'interndetails',component:InterndetailsComponent},
     {path:'assigntask',component:AssigntaskComponent}
-
-
 ];
