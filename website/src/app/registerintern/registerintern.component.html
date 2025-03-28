@@ -10,89 +10,93 @@
             <button class="btn btn-warning rounded-pill"><a href="#"  class=" text-white  text-decoration-none">TaskReport</a></button>
         </div>
     </div> -->
-    <div class="card" id="header">
-        <div class="d-flex gap-5 justify-content-center list-unstyled m-4">
-            <img src="internweb/website/src/asssets/a.jpeg" width="50px" height="50px" />
-           
-            <a href="registerintern">
-                <button class="btn btn-warning rounded-pill text-white">RegisterIntern</button>
-            </a>
-            <a href="interndetails">
-                <button class="btn btn-warning rounded-pill text-white">InternDetails</button>
-            </a>
-            <a href="assigntask">
-                <button class="btn btn-warning rounded-pill text-white">AssignTask</button>
-            </a>
-            <a href="pendingtask">
-                <button class="btn btn-warning rounded-pill text-white">PendingTask</button>
-            </a>
-            <a href="taskreport">
-                <button class="btn btn-warning rounded-pill text-white">TaskReport</button>
-            </a>
-        </div>
-    </div>
     
-    <div class="card p-4" id="form">
-        <div class="row mt-4">
-            <div class="col-lg-6 ">
-                <input class="col-lg-10 offset-lg-2  text-danger " type="text" placeholder="Intern Name">
+        <div id="header" class="row">
+            <div class="col-md-2 ">
+                <img class="img-fluid rounded" style="width:90%; height:100%;"
+                    src="data:image/png;base64,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"
+                    alt="femto">
             </div>
-            <div class="col-lg-6 ">
-                <input class="col-lg-10 offset-lg-2 " type="password" placeholder="Password">
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-lg-6 ">
-                <input class="col-lg-10 offset-lg-2 " type="email" placeholder="Email">
-            </div>
-            <div class="col-lg-6  ">
-                <input class="col-lg-10 offset-lg-2 " type="text" placeholder="Domain">
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-lg-6 ">
-                <input class="col-lg-10 offset-lg-2 " type="number" placeholder="Duration">
-            </div>
-            <div class="col-lg-6  ">
-                <input class="col-lg-10 offset-lg-2 " type="date"  >
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-lg-6 ">
-                <input class="col-lg-10 offset-lg-2 " type="number" placeholder="WhatsApp Number">
-            </div>
-            <div class="col-lg-6  ">
-                <input class="col-lg-10 offset-lg-2 " type="text" placeholder="College Name" >
+
+            <div class=" col-md-10 d-flex gap-5 justify-content-center list-unstyled mt-4 ">
+                <a href="registerintern">
+                    <button class="btn btn-warning rounded-pill text-white">RegisterIntern</button>
+                </a>
+                <a href="interndetails">
+                    <button class="btn btn-warning rounded-pill text-white">InternDetails</button>
+                </a>
+                <a href="assigntask">
+                    <button class="btn btn-warning rounded-pill text-white">AssignTask</button>
+                </a>
+                <a href="pendingtask">
+                    <button class="btn btn-warning rounded-pill text-white">PendingTask</button>
+                </a>
+                <a href="taskreport">
+                    <button class="btn btn-warning rounded-pill text-white">TaskReport</button>
+                </a>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col-lg-6 ">
-                <input class="col-lg-10 offset-lg-2 " type="number" placeholder="Passed out year">
+
+
+        <div class="card p-4" id="form">
+            <div class="row mt-4">
+                <div class="col-lg-6 ">
+                    <input class="col-lg-10 offset-lg-2  text-danger " type="text" placeholder="Intern Name">
+                </div>
+                <div class="col-lg-6 ">
+                    <input class="col-lg-10 offset-lg-2 " type="password" placeholder="Password">
+                </div>
             </div>
-            <div class="col-lg-6  ">
-                <input class="col-lg-10 offset-lg-2 " type="text" placeholder="Degree" >
+            <div class="row mt-4">
+                <div class="col-lg-6 ">
+                    <input class="col-lg-10 offset-lg-2 " type="email" placeholder="Email">
+                </div>
+                <div class="col-lg-6  ">
+                    <input class="col-lg-10 offset-lg-2 " type="text" placeholder="Domain">
+                </div>
             </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 ">
+                    <input class="col-lg-10 offset-lg-2 " type="number" placeholder="Duration">
+                </div>
+                <div class="col-lg-6  ">
+                    <input class="col-lg-10 offset-lg-2 " type="date">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 ">
+                    <input class="col-lg-10 offset-lg-2 " type="number" placeholder="WhatsApp Number">
+                </div>
+                <div class="col-lg-6  ">
+                    <input class="col-lg-10 offset-lg-2 " type="text" placeholder="College Name">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 ">
+                    <input class="col-lg-10 offset-lg-2 " type="number" placeholder="Passed out year">
+                </div>
+                <div class="col-lg-6  ">
+                    <input class="col-lg-10 offset-lg-2 " type="text" placeholder="Degree">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 ">
+                    <input class="col-lg-10 offset-lg-2 " type="text" placeholder="Department">
+                </div>
+                <div class="col-lg-6  ">
+                    <input class="col-lg-10 offset-lg-2 " type="text" placeholder="Mode of Internship">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 ">
+                    <input class="col-lg-10 offset-lg-2 " type="text" placeholder="location">
+                </div>
+                <div class="col-lg-6">
+                    <input class="col-lg-3 offset-lg-5" type="button" value="save" id="btn">
+                </div>
+            </div>
+
         </div>
-        <div class="row mt-4">
-            <div class="col-lg-6 ">
-                <input class="col-lg-10 offset-lg-2 " type="text" placeholder="Department">
-            </div>
-            <div class="col-lg-6  ">
-                <input class="col-lg-10 offset-lg-2 " type="text" placeholder="Mode of Internship" >
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-lg-6 ">
-                <input class="col-lg-10 offset-lg-2 " type="text" placeholder="location">
-            </div>
-            <div class="col-lg-6">
-                <input class="col-lg-3 offset-lg-5" type="button" value="save" id="btn">
-            </div>
-        </div>
+
 
     </div>
-
-
-</div>
-
- 
