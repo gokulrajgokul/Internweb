@@ -75,8 +75,8 @@ input:focus {
 body {
     background-color: #FAFAFA;
     font-family: 'Poppins', sans-serif;
-    background:url(a.jpeg);
-    background-size: cover;
+    
+    
 }
 .container-fluid {
     padding: 20px;
@@ -133,9 +133,7 @@ input:focus {
     cursor: pointer;
     transition: all 0.3s;
 }
-input::placeholder {
-    color:   #333333 ;
-}
+ 
 #btn:hover {
     background: #003C82;
     transform: translateY(-2px);
