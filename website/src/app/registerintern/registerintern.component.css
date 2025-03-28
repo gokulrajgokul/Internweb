@@ -1,12 +1,140 @@
+/* *{
+    background-color: #F4F6F7   ;
+} 
+
 input{
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+    background-color:   #D0E8D7   ;
 }
 input:hover{
-    border-color: black;
-    background-color:violet;
-}
+    color: #0088CC;
+} 
 #form{
-    background-color: aquamarine;
+    background-color:  #FFFFFF  ;
+}
+#btn{
+    background-color: #27AE60 ;
+}
+input::placeholder {
+    color:   #2C3E50 ;
+} */
+
+
+/* body {
+    background-color: #F8F9FA; 
+    font-family: Arial, sans-serif;
+}
+#header{
+    background-color: #2C3E50; 
+}
+.card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.d-flex button {
+    background-color: #F1C40F;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.d-flex button:hover {
+    background-color: #D4AC0D; 
+}
+.d-flex a {
+    color: #FFFFFF;
+}
+input {
+    padding: 8px;
+    border: 1px solid #D5D8DC; 
+    border-radius: 5px;
+}
+input:focus {
+    border-color: #2C3E50;
+    outline: none;
+}
+#btn {
+    background-color: #2C3E50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#btn:hover {
+    background-color: #1A252F;
+} */
+
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+    background:url(a.jpeg);
+    background-size: cover;
+}
+.container-fluid {
+    padding: 20px;
+}
+#header {
+    background: linear-gradient(to right, #0056B3, #003C82);
+    height: 80px;
+    border-radius: 8px;
+}
+.card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.d-flex button {
+    background: linear-gradient(to right, #F4B400, #E0A100);
+    border: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.d-flex button:hover {
+    background: #D98B00; 
+    transform: translateY(-2px);
+}
+.d-flex a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+input {
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    background:  #F8F9FA;
+    transition: all 0.3s ease;
+}
+input:focus {
+    border-color: #0056B3;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.2);
+}
+#btn {
+    background: #0056B3;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+input::placeholder {
+    color:   #333333 ;
+}
+#btn:hover {
+    background: #003C82;
+    transform: translateY(-2px);
 }
