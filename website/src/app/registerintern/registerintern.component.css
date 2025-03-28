@@ -78,12 +78,10 @@ body {
     
     
 }
-.container-fluid {
-    padding: 20px;
-}
+
 #header {
     background: linear-gradient(to right, #0056B3, #003C82);
-    height: 80px;
+    height: 100px;
     border-radius: 8px;
 }
  #form {
