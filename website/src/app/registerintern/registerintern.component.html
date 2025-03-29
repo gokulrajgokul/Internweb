@@ -1,14 +1,9 @@
-<div class="container-fluid ">
-       
-
-     
+<!-- <div class="container-fluid">
         <img class="img-fluid rounded"
         src="/assets/images/femtologo.png"
         alt="Femto"
         style="max-height: 80px; width: auto;">
-        <div id="header" class="card d-flex flex-wrap flex-md-nowrap align-items-center justify-content-between p-3">
-            
-             
+        <div id="header" class="card d-flex flex-wrap flex-md-nowrap align-items-center justify-content-between p-3"> 
             <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-end mt-2 mt-md-0">
                 <a href="registerintern">
                     <button class="btn btn-warning rounded-pill text-white">Register Intern</button>
@@ -26,13 +21,8 @@
                     <button class="btn btn-warning rounded-pill text-white">Task Report</button>
                 </a>
             </div>
-    
         </div>
-    
-        
-
-
-        <div class="card p-4" id="form">
+        <div class=" card p-4" id="form">
             <div class="row mt-4">
                 <div class="col-lg-6 ">
                     <input class="col-lg-10 offset-lg-2  text-danger " type="text" placeholder="Intern Name">
@@ -90,11 +80,78 @@
                             <span>Save</span>
                             <span>Thanks!</span>
                         </button>
-
                 </div>
             </div>
-
         </div>
-
-
     </div>
+     -->
+
+
+
+ <div class="container-fluid p-3">
+    <nav class="navbar navbar-expand-md bg-light shadow rounded p-2">
+        <a class="navbar-brand" href="#">
+            <img src="/assets/images/femtologo.png" alt="Femto" class="img-fluid rounded" style="max-height: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-2">
+                <li class="nav-item"><a href="registerintern" class="btn btn-warning rounded-pill text-white">Register Intern</a></li>
+                <li class="nav-item"><a href="interndetails" class="btn btn-warning rounded-pill text-white">Intern Details</a></li>
+                <li class="nav-item"><a href="assigntask" class="btn btn-warning rounded-pill text-white">Assign Task</a></li>
+                <li class="nav-item"><a href="pendingtask" class="btn btn-warning rounded-pill text-white">Pending Task</a></li>
+                <li class="nav-item"><a href="taskreport" class="btn btn-warning rounded-pill text-white">Task Report</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="card p-4 mt-3">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <input class="form-control" type="text" placeholder="Intern Name">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="password" placeholder="Password">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="email" placeholder="Email">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="text" placeholder="Domain">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="number" placeholder="Duration">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="date">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="number" placeholder="WhatsApp Number">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="text" placeholder="College Name">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="number" placeholder="Passed out year">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="text" placeholder="Degree">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="text" placeholder="Department">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="text" placeholder="Mode of Internship">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="text" placeholder="Location">
+            </div>
+            <div class="col-md-6 text-center">
+                <button class="btn btn-primary w-100">Save</button>
+            </div>
+        </div>
+    </div>
+</div> 
