@@ -1,25 +1,23 @@
 
+
 #header {
     background: linear-gradient(to right, #0056B3, #003C82);
-    height: 100px;
-    border-radius: 8px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
-.card {
-    background-color:lavender;
-}
-.d-flex button {
+.navbar-nav .nav-item .btn {
     background: linear-gradient(to right, #F4B400, #E0A100);
     border: none;
     font-weight: bold;
-    padding: 12px 24px;
+    padding: 12px 20px;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
 }
-.d-flex button:hover {
-    background: #D98B00; 
+.navbar-nav .nav-item .btn:hover {
+    background: #D98B00;
     transform: translateY(-2px);
 }
-.d-flex a {
+.navbar-nav .nav-item a {
     color: #FFFFFF;
     font-size: 16px;
     text-transform: uppercase;
