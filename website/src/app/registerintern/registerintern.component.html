@@ -1,68 +1,68 @@
-<div class="card mt-2 p-3">
-    <img class="img-fluid rounded mb-3" src="/assets/images/femtologo.png" alt="Femto" style="max-height: 80px; width: auto;">
+    <div class="container-fluid p-2">
+        <img class="img-fluid rounded" src="/assets/images/femtologo.png" alt="Femto" style="max-height: 80px; width: auto;">
 
-    <nav class="navbar navbar-expand-md bg-light shadow rounded p-4">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav gap-2">
-                <li class="nav-item"><a routerLink="registerintern" class="btn btn-primary rounded-pill">Register Intern</a></li>
-                <li class="nav-item"><a routerLink="interndetails" class="btn btn-primary rounded-pill">Intern Details</a></li>
-                <li class="nav-item"><a routerLink="assigntask" class="btn btn-primary rounded-pill">Assign Task</a></li>
-                <li class="nav-item"><a routerLink="pendingtask" class="btn btn-primary rounded-pill">Pending Task</a></li>
-                <li class="nav-item"><a routerLink="taskreport" class="btn btn-primary rounded-pill">Task Report</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="card mt-2 p-3">
-        <h3 class="text-center mb-4">Intern Registration</h3>
-        <form (ngSubmit)="onSubmit()">
+        <nav class="navbar navbar-expand-md bg-light shadow rounded p-2">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav gap-2">
+                    <li class="nav-item"><a href="registerintern" class="btn rounded-pill text-white">Register Intern</a></li>
+                    <li class="nav-item"><a href="interndetails" class="btn rounded-pill text-white">Intern Details</a></li>
+                    <li class="nav-item"><a href="assigntask" class="btn rounded-pill text-white">Assign Task</a></li>
+                    <li class="nav-item"><a href="pendingtask" class="btn rounded-pill text-white">Pending Task</a></li>
+                    <li class="nav-item"><a href="taskreport" class="btn rounded-pill text-white">Task Report</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="card p-4 mt-2" id="form">
             <div class="row g-3">
-                <div class="col-md-6">
-                    <input class="form-control" type="text" placeholder="Intern Name" [(ngModel)]="intern.name" name="name" required>
+                <div class="col-lg-5 col-md-6" >
+                    <input class="form-control offset-md-1"  type="text" placeholder="Intern Name">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="password" placeholder="Password" [(ngModel)]="intern.password" name="password" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-4"type="password" placeholder="Password">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="email" placeholder="Email" [(ngModel)]="intern.email" name="email" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-1"type="email" placeholder="Email">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="text" placeholder="Domain" [(ngModel)]="intern.domain" name="domain" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-4"type="text" placeholder="Domain">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="number" placeholder="Duration (in months)" [(ngModel)]="intern.duration" name="duration" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-1"type="number" placeholder="Duration">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="date" [(ngModel)]="intern.startDate" name="startDate" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-4"type="date">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="number" placeholder="WhatsApp Number" [(ngModel)]="intern.whatsapp" name="whatsapp" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-1"type="number" placeholder="WhatsApp Number">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="text" placeholder="College Name" [(ngModel)]="intern.college" name="college" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-4"type="text" placeholder="College Name">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="number" placeholder="Passed Out Year" [(ngModel)]="intern.passedOutYear" name="passedOutYear" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-1"type="number" placeholder="Passed out year">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="text" placeholder="Degree" [(ngModel)]="intern.degree" name="degree" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-4"type="text" placeholder="Degree">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="text" placeholder="Department" [(ngModel)]="intern.department" name="department" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-1"type="text" placeholder="Department">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="text" placeholder="Mode of Internship" [(ngModel)]="intern.mode" name="mode" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-4"type="text" placeholder="Mode of Internship">
                 </div>
-                <div class="col-md-6">
-                    <input class="form-control" type="text" placeholder="Location" [(ngModel)]="intern.location" name="location" required>
+                <div class="col-lg-5 col-md-6">
+                    <input class="form-control offset-md-1"type="text" placeholder="Location">
                 </div>
-                <div class="col-md-6 text-center mt-4">
-                    <button class="btn btn-success px-5" type="submit">Save</button>
+                <div class="col-lg-4 col-md-6 text-center offset-md-2" id="submit">
+                    <button class="btn-save" id="btn-save">
+                        <span>Save</span>
+                        <span>Thanks!</span>
+                    </button>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
-</div>
