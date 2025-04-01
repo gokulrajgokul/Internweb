@@ -1,7 +1,7 @@
     <div class="container-fluid p-2">
         <img class="img-fluid rounded" src="/assets/images/femtologo.png" alt="Femto" style="max-height: 80px; width: auto;">
 
-        <nav class="navbar navbar-expand-md bg-light shadow rounded p-2">
+        <nav class="navbar navbar-expand-md bg-light shadow rounded p-2" id="header">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -17,11 +17,11 @@
         </nav>
         
         <div class="card p-4 mt-2" id="form">
-            <div class="row g-3">
-                <div class="col-lg-5 col-md-6" >
+            <!-- <div class="row g-3">
+                <div class="col-lg-5   col-md-6" >
                     <input class="form-control offset-md-1"  type="text" placeholder="Intern Name">
                 </div>
-                <div class="col-lg-5 col-md-6">
+                <div class="col-lg-5    col-md-6">
                     <input class="form-control offset-md-4"type="password" placeholder="Password">
                 </div>
                 <div class="col-lg-5 col-md-6">
@@ -63,6 +63,58 @@
                         <span>Thanks!</span>
                     </button>
                 </div>
+            </div> -->
+
+            <div class="card p-3">
+                <h3 class="text-center mb-4">Intern Registration</h3>
+                <form>
+                    <div class="row g-3">
+                        <!-- For Medium screens and above (≥768px), each column will take 6 columns (50% of the row) -->
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="text" placeholder="Intern Name" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="password" placeholder="Password" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6 ">
+                            <input class="form-control" type="email" placeholder="Email" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="text" placeholder="Domain" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="number" placeholder="Duration (in months)" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="date" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="number" placeholder="WhatsApp Number" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6 ">
+                            <input class="form-control" type="text" placeholder="College Name" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6 ">
+                            <input class="form-control" type="number" placeholder="Passed Out Year" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="text" placeholder="Degree" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="text" placeholder="Department" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="text" placeholder="Mode of Internship" required>
+                        </div>
+                        <div class="col-md-6 col-lg-6  ">
+                            <input class="form-control" type="text" placeholder="Location" required>
+                        </div>
+                        <!-- Adjust the button for responsiveness -->
+                        <div class="col-md-6 text-center mt-4">
+                            <button class="btn btn-success px-5" type="submit">Save</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
