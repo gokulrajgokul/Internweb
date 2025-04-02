@@ -33,3 +33,17 @@ h4{
     font-weight: bold;
     text-shadow:1px 1px 1px #F4B400;
 }
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    background: #F8F9FA;
+    transition: all 0.3s ease;
+}
+.form-control:focus {
+    border-color: #0056B3;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.2);
+}

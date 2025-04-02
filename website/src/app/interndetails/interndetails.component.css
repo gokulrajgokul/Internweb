@@ -40,4 +40,9 @@
 .table{
 margin:0px 0px;
 }
+h1{
+    color: #0056B3;
+    font-weight: bold;
+    text-shadow:1px 1px 1px #F4B400;
+}
  
