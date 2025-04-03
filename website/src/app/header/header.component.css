@@ -1,15 +1,60 @@
-.row{
-    /* background: linear-gradient(135deg, #1F3C88, #0A1931); */
-    /* background: linear-gradient(135deg, #1F3C88, #4A90E2); */
-    /* background: linear-gradient(135deg, #1F3C88, #D4AF37); */
-    /* background: linear-gradient(135deg, #1F3C88, #008080); */
-    background: linear-gradient(135deg, #1F3C88, #4A90E2);
-
-
-
-
-
+body {
+    font-family: 'Arial', sans-serif;
 }
-p{
-    color: white;
+.bg-info {
+    background: linear-gradient(135deg, #1F3C88, #0A1931);
+}
+.text-dark {
+    color: #1F3C88 !important;
+}
+.container-fluid .row {
+    padding: 10px 0;
+}
+
+img.img-fluid {
+    max-height: 80px;
+    width: auto;
+}
+.bi {
+    font-size: 1.2rem;
+    color: #1F3C88;
+}
+nav {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+nav a:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to right, #F4B400, #E0A100);
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gap-3 {
+        gap: 1rem;
+    }
+
+    nav {
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+    }
 }
