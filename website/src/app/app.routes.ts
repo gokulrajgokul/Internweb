@@ -6,6 +6,7 @@ import { PendingtaskComponent } from './pendingtask/pendingtask.component';
 import { TaskreportComponent } from './taskreport/taskreport.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
     {path:'',component:RegisterinternComponent},
@@ -15,5 +16,6 @@ export const routes: Routes = [
     {path:'pendingtask',component:PendingtaskComponent},
     {path:'taskreport',component:TaskreportComponent},
     {path:'header',component:HeaderComponent},
-    {path:'footer',component:FooterComponent}
+    {path:'footer',component:FooterComponent},
+    {path:'home',component:HomeComponent}
 ];
