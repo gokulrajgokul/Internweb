@@ -1,0 +1,10 @@
+.copyright{
+    background: linear-gradient(45deg, rgb(50, 50, 173), rgb(115, 115, 255));
+    color: white; 
+    padding: 10px;
+}
+.row{
+    background: linear-gradient(45deg, rgb(115, 115, 255), rgb(50, 50, 173));
+    color: white;
+
+}
