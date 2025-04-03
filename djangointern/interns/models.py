@@ -14,3 +14,7 @@ class registerintern(models.Model):
     collegename=models.CharField(max_length = 255)
     passyear=models.IntegerField(null=False)
     degree=models.CharField(max_length = 255)
+
+
+    def __str__(self):
+        return self.internname
