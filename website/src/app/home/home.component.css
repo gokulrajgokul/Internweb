@@ -5,12 +5,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-/* #login{
+#login{
     border:2px solid black;
     border-radius: 20px;
     height:auto;
     backdrop-filter: blur( 5px);
-} */
+} 
 
 #submit {
     transform: translateY(-5px);
@@ -26,8 +26,8 @@
     padding: 4px;
     text-decoration: none;
     cursor: pointer;
-    width: 30%;
-    background: linear-gradient(to right, #0056B3, #003C82);
+    width: 40%;
+    background: linear-gradient(to right, #0056B3, #73a7e3);
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
@@ -37,7 +37,7 @@
     z-index: 10;
 }
 #btn-save:hover {
-    background: #003C82;
+    background: #87b0df;
     transform: translateY(-2px);
 }
 #btn-save span:last-child {
