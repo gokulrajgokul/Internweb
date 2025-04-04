@@ -9,7 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
-    {path:'',component:RegisterinternComponent},
+    {path:'registerintern',component:RegisterinternComponent},
     {path:'registerintern',component:RegisterinternComponent},
     {path:'interndetails',component:InterndetailsComponent},
     {path:'assigntask',component:AssigntaskComponent},
@@ -17,5 +17,5 @@ export const routes: Routes = [
     {path:'taskreport',component:TaskreportComponent},
     {path:'header',component:HeaderComponent},
     {path:'footer',component:FooterComponent},
-    {path:'home',component:HomeComponent}
+    {path:'',component:HomeComponent}
 ];
