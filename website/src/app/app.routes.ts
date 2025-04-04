@@ -7,6 +7,7 @@ import { TaskreportComponent } from './taskreport/taskreport.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 export const routes: Routes = [
     {path:'registerintern',component:RegisterinternComponent},
@@ -15,6 +16,7 @@ export const routes: Routes = [
     {path:'assigntask',component:AssigntaskComponent},
     {path:'pendingtask',component:PendingtaskComponent},
     {path:'taskreport',component:TaskreportComponent},
+    {path:'sidebar',component:SidebarComponent},
     {path:'header',component:HeaderComponent},
     {path:'footer',component:FooterComponent},
     {path:'',component:HomeComponent}
