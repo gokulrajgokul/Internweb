@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="container-fluid bg-info" id="top">
     <div class="row align-items-center">
             <p class="mx-5">Welcome to Femtosoft Technology</p>
@@ -7,6 +7,35 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav" >
+                <ul class="navbar-nav gap-2 ">
+                    <li class="nav-item"><a href="registerintern" class="text-white">Register Intern</a></li>
+                    <li class="nav-item"><a href="interndetails" class="text-white">Intern Details</a></li>
+                    <li class="nav-item"><a href="assigntask" class="text-white">Assign Task</a></li>
+                    <li class="nav-item"><a href="pendingtask" class="text-white">Pending Task</a></li>
+                    <li class="nav-item"><a href="taskreport" class="text-white">Task Report</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
-</div>
+</div> -->
+
+
+
+<div class="top-bar">
+   
+    <button class="menu-toggle" (click)="toggleSidebar()"><i class="bi bi-list"></i></button>
+    <h4>Welcome to Femtosoft Technology</h4>
+    
+  </div>
+  
+  <div class="sidebar" [class.active]="isSidebarOpen">
+    <button class="close-btn" (click)="toggleSidebar()"><i class="bi bi-x-square"></i></button>
+    <ul>
+      <li><a href="#"><i class="bi bi-person-fill-gear"></i>    Admin Panel</a></li>
+      <li><a href="#"><i class="bi bi-people"></i>  Student detail</a></li>
+      <li><a href="#">manage tasks</a></li>
+       
+    </ul>
+  </div>
+  

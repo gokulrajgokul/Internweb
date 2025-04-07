@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { AdminhomeComponent } from './adminhome/adminhome.component';
 
 export const routes: Routes = [
     {path:'registerintern',component:RegisterinternComponent},
@@ -19,5 +20,7 @@ export const routes: Routes = [
     {path:'sidebar',component:SidebarComponent},
     {path:'header',component:HeaderComponent},
     {path:'footer',component:FooterComponent},
-    {path:'',component:HomeComponent}
+    {path:'adminhome',component:AdminhomeComponent},
+    {path:'',component:AdminhomeComponent},
+    {path:'home',component:HomeComponent}
 ];
