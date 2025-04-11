@@ -22,7 +22,8 @@ export const routes: Routes = [
     {path:'header',component:HeaderComponent},
     {path:'footer',component:FooterComponent},
     {path:'adminhome',component:AdminhomeComponent},
+    {path:'',component:HomeComponent},
     {path:'home',component:HomeComponent},
     {path:'payment',component:PaymentComponent},
-    {path:'',component:PaymentComponent},
+ 
 ];
