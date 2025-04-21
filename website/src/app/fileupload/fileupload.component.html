@@ -1,10 +1,12 @@
 <div class="container mt-4">
     <h2>Upload Your Documents</h2>
     <form [formGroup]="fileupload" (ngSubmit)="onSubmit()">
+
       <div class="mb-3">
         <label class="form-label">SSLC Marksheet</label>
         <input type="file" class="form-control" (change)="onFileChange($event, 'sslc')">
       </div>
+    
       <div class="mb-3">
         <label class="form-label">HSC Marksheet</label>
         <input type="file" class="form-control" (change)="onFileChange($event, 'hsc')">
@@ -26,6 +28,7 @@
         <input type="file" class="form-control" (change)="onFileChange($event, 'resume')">
       </div>
       <button class="btn btn-primary" type="submit">Upload</button>
+    </div>
     </form>
   </div>
   
