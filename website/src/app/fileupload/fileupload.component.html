@@ -1,7 +1,8 @@
 <div class="container mt-4">
-    <h2>Upload Your Documents</h2>
+    <h2 class="text-center">Upload Your Documents</h2>
     <form [formGroup]="fileupload" (ngSubmit)="onSubmit()">
-
+       <div class="row">
+        <div class="col-lg-5 offset-lg-3">
       <div class="mb-3">
         <label class="form-label">SSLC Marksheet</label>
         <input type="file" class="form-control" (change)="onFileChange($event, 'sslc')">
@@ -27,7 +28,8 @@
         <label class="form-label">Resume</label>
         <input type="file" class="form-control" (change)="onFileChange($event, 'resume')">
       </div>
-      <button class="btn btn-primary" type="submit">Upload</button>
+      <button class="btn btn-success" type="submit">Upload</button>
+    </div>
     </div>
     </form>
   </div>
