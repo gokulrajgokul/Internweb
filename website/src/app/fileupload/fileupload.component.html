@@ -1,44 +1,46 @@
-<!-- Add inside <head> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<div class="container mt-3 p-3 rounded shadow bg-white">
+    
 
-<div class="container mt-5 p-4 rounded shadow bg-white">
-    <h2 class="mb-4 text-primary"><i class="fas fa-upload me-2"></i>Upload Your Documents</h2>
-  
     <form [formGroup]="fileupload" (ngSubmit)="onSubmit()">
-      
-      <div class="mb-4">
-        <label class="form-label"><i class="fas fa-file-alt me-2 text-secondary"></i>SSLC Marksheet</label>
-        <input type="file" class="form-control" (change)="onFileChange($event, 'sslc')">
-      </div>
-  
-      <div class="mb-4">
-        <label class="form-label"><i class="fas fa-file-alt me-2 text-secondary"></i>HSC Marksheet</label>
-        <input type="file" class="form-control" (change)="onFileChange($event, 'hsc')">
-      </div>
-  
-      <div class="mb-4">
-        <label class="form-label"><i class="fas fa-certificate me-2 text-secondary"></i>Provisional Certificate</label>
-        <input type="file" class="form-control" (change)="onFileChange($event, 'provisional')">
-      </div>
-  
-      <div class="mb-4">
-        <label class="form-label"><i class="fas fa-id-card me-2 text-secondary"></i>Aadhar Card</label>
-        <input type="file" class="form-control" (change)="onFileChange($event, 'aadhar')">
-      </div>
-  
-      <div class="mb-4">
-        <label class="form-label"><i class="fas fa-user-circle me-2 text-secondary"></i>Photo</label>
-        <input type="file" class="form-control" (change)="onFileChange($event, 'photo')">
-      </div>
-  
-      <div class="mb-4">
-        <label class="form-label"><i class="fas fa-file-lines me-2 text-secondary"></i>Resume</label>
-        <input type="file" class="form-control" (change)="onFileChange($event, 'resume')">
-      </div>
-  
-      <button class="btn btn-primary w-100" type="submit">
-        <i class="fas fa-cloud-upload-alt me-2"></i>Upload Files
-      </button>
+        <div class="row">
+            
+            <div class="col-lg-6 offset-lg-3">
+                <h2 class="mb-4 text-primary"><i class="fas fa-upload me-2"></i>Upload Your Documents</h2>
+                <div class="mb-4">
+                    <label class="form-label"><i class="fas fa-file-alt me-2 text-secondary"></i>SSLC Marksheet</label>
+                    <input type="file" class="form-control" (change)="onFileChange($event, 'sslc')">
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label"><i class="fas fa-file-alt me-2 text-secondary"></i>HSC Marksheet</label>
+                    <input type="file" class="form-control" (change)="onFileChange($event, 'hsc')">
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label"><i class="fas fa-certificate me-2 text-secondary"></i>Provisional
+                        Certificate</label>
+                    <input type="file" class="form-control" (change)="onFileChange($event, 'provisional')">
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label"><i class="fas fa-id-card me-2 text-secondary"></i>Aadhar Card</label>
+                    <input type="file" class="form-control" (change)="onFileChange($event, 'aadhar')">
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label"><i class="fas fa-user-circle me-2 text-secondary"></i>Photo</label>
+                    <input type="file" class="form-control" (change)="onFileChange($event, 'photo')">
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label"><i class="fas fa-file-lines me-2 text-secondary"></i>Resume</label>
+                    <input type="file" class="form-control" (change)="onFileChange($event, 'resume')">
+                </div>
+
+                <button class="btn btn-primary w-100" type="submit">
+                    <i class="fas fa-cloud-upload-alt me-2"></i>Upload Files
+                </button>
+            </div>
+        </div>
     </form>
-  </div>
-  
+</div>
