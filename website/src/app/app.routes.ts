@@ -10,7 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { PaymentComponent } from './payment/payment.component';
-import { FileuploadComponent } from './fileupload/fileupload.component';
+import { FileUploadComponent } from './fileupload/fileupload.component';
+ 
 
 export const routes: Routes = [
     {path:'registerintern',component:RegisterinternComponent},
@@ -26,6 +27,8 @@ export const routes: Routes = [
     {path:'',component:HomeComponent},
     {path:'home',component:HomeComponent},
     {path:'payment',component:PaymentComponent},
-    {path:'fileupload',component:FileuploadComponent},
+    {path:"fileupload",component:FileUploadComponent}
+   
  
 ];
+
